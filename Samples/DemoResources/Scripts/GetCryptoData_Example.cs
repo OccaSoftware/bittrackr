@@ -26,14 +26,14 @@ namespace OccaSoftware.BitTrackr.Demo
         private void Start()
         {
             bitClient = new Client();
-
+            WriteMarketCapToConsole();
             WriteGlobalMarketDataExample();
             WriteTopCoinsExample();
             WriteBtcAndEthDataExample();
             WriteBtcMarketData();
         }
 
-        private async void LogGlobalMarketCap()
+        private async void WriteMarketCapToConsole()
         {
             var globalMarket = await bitClient.GetGlobalMarketData();
             Debug.Log(globalMarket.total_mcap);
