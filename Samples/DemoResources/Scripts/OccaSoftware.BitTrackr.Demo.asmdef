@@ -1,0 +1,16 @@
+{
+    "name": "OccaSoftware.BitTrackr.Demo",
+    "rootNamespace": "OccaSoftware.BitTrackr.Demo",
+    "references": [
+        "GUID:23d1eddb232155f4da31d879fdbeaaeb"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
